@@ -23,3 +23,10 @@
 .shortcut ul li {
     float: left;
 }
+
+.shortcut .fr ul li:nth-child(even){
+    width: 1px;
+    height: 12px;
+background-color: #666;
+margin: 9px 15px 0;
+}
