@@ -10,8 +10,16 @@
 .fr{
     float: right;
 }
+.style_red {
+    color: #c81623;
+}
 /* shortcut model */
 .shortcut{
     height: 31px;
+    line-height: 31px;
     background-color: #f1f1f1;
+}
+
+.shortcut ul li {
+    float: left;
 }
