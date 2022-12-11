@@ -1,3 +1,15 @@
+/* font icon declaration */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?tb4c8z');
+    src:  url('../fonts/icomoon.eot?tb4c8z#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?tb4c8z') format('truetype'),
+      url('../fonts/icomoon.woff?tb4c8z') format('woff'),
+      url('../fonts/icomoon.svg?tb4c8z#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
 .w {
     width: 1200px;
     margin: 0 auto;
@@ -29,4 +41,10 @@
     height: 12px;
 background-color: #666;
 margin: 9px 15px 0;
+}
+
+.arrow-icon::after {
+    content: '\ea43';
+    font-family: 'icomoon';
+    margin-left: 6px;
 }
