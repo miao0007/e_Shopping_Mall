@@ -134,3 +134,15 @@ margin: 9px 15px 0;
     margin-left: 10px;
     font-size: 18px;
 }
+
+.count {
+    position: absolute;
+    top: -5px;
+    left: 90px;
+    height: 14px;
+    line-height: 14px;
+    color: #fff;
+    background-color: #e60012;
+    padding: 0 5px;
+    border-radius: 7px 7px 7px 0;
+}
