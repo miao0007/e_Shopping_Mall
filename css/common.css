@@ -106,3 +106,31 @@ margin: 9px 15px 0;
 .hotwords a {
     margin: 0 10px;
 }
+
+/* shopping cart  */
+.shopcart {
+    position: absolute;
+    right: 60px;
+    top: 25px;
+   height: 35px;
+   width: 140px;
+   line-height: 35px;
+   text-align: center;
+   border: 1px solid #dfdfdf; 
+   background-color: #f7f7f7;
+}
+
+.shopcart::before{
+    font-family: 'icomoon';
+    content: '\e90c';
+    font-size: 18px;
+    margin-right: 5px;
+    color: #b1191a;
+}
+
+.shopcart::after{
+    font-family: 'icomoon';
+    content: '\ea42';
+    margin-left: 10px;
+    font-size: 18px;
+}
