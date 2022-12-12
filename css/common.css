@@ -285,3 +285,19 @@ margin: 9px 15px 0;
     width: 90px;
     text-align: center;
 }
+
+.mod_copyright {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.mod_copyright .links {
+    margin-bottom: 10px;
+}
+
+.links a {
+    margin: 0 3px;
+}
+.copyright {
+    line-height: 20px;
+}
