@@ -87,3 +87,34 @@
     background-color: pink;
     background: url(../images/icons.png) no-repeat -19px -15px;
 }
+
+.recommendation {
+    height: 163px;
+    background-color: #ebebeb;
+    margin-top: 12px;
+}
+
+.recom_hd {
+    float: left;
+    height: 163px;
+    width: 205px;
+    background-color: #5c5251;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.recom_hd h4 {
+    margin-top: 10px;
+ color: #fff;
+ font-size: 14px;
+}
+.recom_bd {
+float: left;
+}
+.recom_bd ul li {
+    float: left;
+    padding-top: 30px;
+    width: 246px;
+    text-align: right;
+   
+}
