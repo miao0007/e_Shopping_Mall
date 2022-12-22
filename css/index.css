@@ -112,9 +112,20 @@
 float: left;
 }
 .recom_bd ul li {
+    position: relative;
     float: left;
     padding-top: 30px;
     width: 246px;
     text-align: right;
    
+}
+.recom_bd ul li:nth-child(-n+3):after {
+    content: '';
+    position: absolute;
+    right: -10px;
+    top: 10px;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+
 }
